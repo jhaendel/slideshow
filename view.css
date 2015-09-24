@@ -1,0 +1,62 @@
+.slides-wrapper {}
+
+.slides-wrapper .main {
+	padding: 0 5px;
+	margin-bottom: 1em;
+}
+
+/* .slides-wrapper .main img {
+	min-width: 100%;
+	margin: 0 auto;
+} */
+
+.slides-wrapper .thumbs {
+	padding: 0 5px;
+}
+
+.slides-wrapper .thumbs .thumb {
+	opacity: 0.80;
+	padding: 0 5px 0 0;
+}
+
+.slides-wrapper .thumbs .thumb:hover {
+	cursor: pointer;
+}
+
+.slides-wrapper .thumbs .synced .thumb {
+	opacity: 1.0;
+}
+
+/* .slides-wrapper .owl-item.loading{
+	background: url(/concrete/images/throbber_white_32.gif) no-repeat center center;
+} */
+
+.slides-wrapper .owl-controls .owl-next,
+.slides-wrapper .owl-controls .owl-prev {
+	background: url("images/arrow.png") no-repeat center;
+	background-size: 100% auto;
+	
+	width: 60px;
+	height: 100%;
+	
+	position: absolute;
+	top: 0;
+}
+
+.slides-wrapper .owl-controls .owl-next:hover,
+.slides-wrapper .owl-controls .owl-prev:hover {
+	outline: 1px solid rgba(255,255,255,0.5);
+}
+
+/* .slides-wrapper .owl-controls .owl-next:active,
+.slides-wrapper .owl-controls .owl-prev:active {} */
+
+.slides-wrapper .owl-controls .owl-next {
+	right: -10%;
+	-webkit-transform: rotate(180deg);
+	transform: rotate(180deg);
+}
+
+.slides-wrapper .owl-controls .owl-prev {
+	left: -10%;
+}
